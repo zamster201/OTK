@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "C:/CTS/cts_common_venv/.venv128/Lib/site-packages"
+  ]
+}

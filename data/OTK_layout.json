@@ -1,0 +1,181 @@
+[
+  {
+    "slot_id": "Architect_Button",
+    "label": "🧱 Architect",
+    "type": "prompt",
+    "payload": "agents/CTS_Architect/seed.md",
+    "tooltip": "Copy CTS Architect seed prompt",
+    "icon": "architect.png",
+    "row": 0,
+    "col": 0,
+    "shortcut": "Ctrl+1"
+  },
+  {
+    "slot_id": "Reflexion_Button",
+    "label": "🧠 Reflexion",
+    "type": "note",
+    "payload": "agents/Reflexion_Daemon/scratchpad.md",
+    "tooltip": "Open Reflexion scratchpad",
+    "icon": "reflexion.png",
+    "row": 0,
+    "col": 1,
+    "shortcut": "Ctrl+2"
+  },
+  {
+    "slot_id": "Scout_Button",
+    "label": "📡 RFP Scout",
+    "type": "macro",
+    "payload": "scripts/start_rfp_log.py",
+    "tooltip": "Run RFP logging script",
+    "icon": "scout.png",
+    "row": 0,
+    "col": 2,
+    "shortcut": "Ctrl+3"
+  },
+  {
+    "slot_id": "Docs_Button",
+    "label": "📖 CTS Docs",
+    "type": "url",
+    "payload": "https://openai.com/research",
+    "tooltip": "Open CTS docs website",
+    "icon": "docs.png",
+    "row": 0,
+    "col": 3,
+    "shortcut": "Ctrl+4"
+  },
+
+  {
+    "slot_id": "VSCode_Button",
+    "label": "💻 VS Code",
+    "type": "exec",
+    "payload": "C:/Users/zamst/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+    "tooltip": "Launch Visual Studio Code",
+    "icon": "vscode.png",
+    "row": 1,
+    "col": 0,
+    "shortcut": "Ctrl+5"
+  },
+  {
+    "slot_id": "QuickLog_Button",
+    "label": "📝 Quick Log",
+    "type": "log",
+    "payload": "Started a Reflexion session",
+    "tooltip": "Append a quick note to CE log",
+    "icon": "log.png",
+    "row": 1,
+    "col": 1,
+    "shortcut": "Ctrl+6"
+  },
+  {
+    "slot_id": "Search_Button",
+    "label": "🔍 Search",
+    "type": "url",
+    "payload": "https://google.com",
+    "tooltip": "Open Google",
+    "icon": "search.png",
+    "row": 1,
+    "col": 2,
+    "shortcut": "Ctrl+7"
+  },
+  {
+    "slot_id": "Explorer_Button",
+    "label": "📂 Explorer",
+    "type": "exec",
+    "payload": "C:/Windows/explorer.exe",
+    "tooltip": "Open File Explorer",
+    "icon": "explorer.png",
+    "row": 1,
+    "col": 3,
+    "shortcut": "Ctrl+8"
+  },
+
+  {
+    "slot_id": "Music_Button",
+    "label": "🎵 Music",
+    "type": "exec",
+    "payload": "C:/Program Files/Windows Media Player/wmplayer.exe",
+    "tooltip": "Launch Music Player",
+    "icon": "music.png",
+    "row": 2,
+    "col": 0,
+    "shortcut": "Ctrl+9"
+  },
+  {
+    "slot_id": "Mail_Button",
+    "label": "📧 Mail",
+    "type": "url",
+    "payload": "https://outlook.com",
+    "tooltip": "Open Outlook web",
+    "icon": "mail.png",
+    "row": 2,
+    "col": 1,
+    "shortcut": "Ctrl+0"
+  },
+  {
+    "slot_id": "News_Button",
+    "label": "📰 News",
+    "type": "url",
+    "payload": "https://news.google.com",
+    "tooltip": "Open Google News",
+    "icon": "news.png",
+    "row": 2,
+    "col": 2,
+    "shortcut": "Ctrl+Shift+1"
+  },
+  {
+    "slot_id": "Settings_Button",
+    "label": "⚙️ Settings",
+    "type": "exec",
+    "payload": "C:/Windows/System32/control.exe",
+    "tooltip": "Open Control Panel",
+    "icon": "settings.png",
+    "row": 2,
+    "col": 3,
+    "shortcut": "Ctrl+Shift+2"
+  },
+
+  {
+    "slot_id": "Notepad_Button",
+    "label": "🗒️ Notepad",
+    "type": "exec",
+    "payload": "C:/Windows/system32/notepad.exe",
+    "tooltip": "Open Notepad",
+    "icon": "notepad.png",
+    "row": 3,
+    "col": 0,
+    "shortcut": "Ctrl+Shift+3"
+  },
+  {
+    "slot_id": "Browser_Button",
+    "label": "🌐 Browser",
+    "type": "exec",
+    "payload": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "tooltip": "Open Chrome",
+    "icon": "browser.png",
+    "row": 3,
+    "col": 1,
+    "shortcut": "Ctrl+Shift+4"
+  },
+  {
+    "slot_id": "Quit_Button",
+    "label": "🛑 Quit",
+    "type": "exec",
+    "payload": "shutdown /s /t 0",
+    "tooltip": "Shut down system (careful!)",
+    "icon": "quit.png",
+    "row": 3,
+    "col": 2,
+    "shortcut": "Ctrl+Shift+5"
+  },
+  {
+    "slot_id": "Placeholder_Button",
+    "label": "⭐ Placeholder",
+    "type": "log",
+    "payload": "Placeholder slot for testing",
+    "tooltip": "Logs a test message",
+    "icon": "placeholder.png",
+    "row": 3,
+    "col": 3,
+    "shortcut": "Ctrl+Shift+6"
+  }
+]

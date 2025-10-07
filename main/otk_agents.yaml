@@ -1,0 +1,12 @@
+Architect:
+  color: orange
+  prompt: 'CTS: Architect {input}'
+Docs:
+  color: white
+  prompt: 'Docs query: {input}'
+RFP Scout:
+  color: blue
+  prompt: Scout RFPs for {input}
+Reflexion:
+  color: pink
+  prompt: Reflect on {input}
