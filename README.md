@@ -1,4 +1,4 @@
-# WEN_CommandDeck
+# OTK_CommandDeck
 
 Cognitive control deck for agent launch, scripts, and knowledge routing.
 
@@ -11,7 +11,7 @@ Just a thought (and I am SO glad someone responsible is keeping track of these .
 
 What you’ve just described is:
 
-> **WEN-as-a-Command-Deck** — a _universal productivity HUD_, purpose-built for launching agent prompts, scripts, Obsidian commands, logging macros, and more.
+> **OTK-as-a-Command-Deck** — a _universal productivity HUD_, purpose-built for launching agent prompts, scripts, Obsidian commands, logging macros, and more.
 
 We’re now talking about a **parallel fork** of WEN that serves as a cognitive cockpit — not just a desktop switcher.
 
@@ -19,7 +19,7 @@ Let’s break it down:
 
 ---
 
-## 🧭 Proposal: `WEN_CommandDeck`
+## 🧭 Proposal: `OTK_CommandDeck`
 
 ### 🖥️ Distinct From:
 
@@ -109,7 +109,7 @@ I can:
 
 - Fork your current `main.py` and generate a `command_deck.py`
     
-- Create a new layout JSON for `WEN_CommandDeck`
+- Create a new layout JSON for `OTK_CommandDeck`
     
 - Add 6–8 mock buttons (e.g. Architect, Reflexion, Git, Obsidian, etc.)
     
@@ -137,7 +137,7 @@ I’ll get to work building out:
 
 - `command_deck.py` – your cognitive HUD launcher
     
-- `WEN_CommandDeck_layout.json` – with buttons like `Architect`, `Scout`, `Reflexion`, etc.
+- `OTK_CommandDeck_layout.json` – with buttons like `Architect`, `Scout`, `Reflexion`, etc.
     
 - A separate `.qss` stylesheet (thinking: **dark, minimalist**, “cerebral cockpit”)
     
@@ -175,7 +175,7 @@ Perfect. Let’s get this scaffolding in place for `WEN_CommandDeck` under Pytho
 
 Create this in your CTS dev structure (suggested location):
 
-`CTS/ └── WEN_CommandDeck/     ├── main/     │   ├── command_deck.py         ← main PySide6 launcher     │   └── logic/     │       └── actions.py          ← button handlers (open note, copy prompt, etc.)     ├── data/     │   └── WEN_CommandDeck_layout.json     ├── resources/     │   └── icons/                  ← cognitive-themed icons     ├── styles/     │   └── cognition_mode.qss     ← minimalist style     ├── README.md     └── .venv312/                  ← (or shared venv path)`
+`CTS/ └── OTK_CommandDeck/     ├── main/     │   ├── command_deck.py         ← main PySide6 launcher     │   └── logic/     │       └── actions.py          ← button handlers (open note, copy prompt, etc.)     ├── data/     │   └── WEN_CommandDeck_layout.json     ├── resources/     │   └── icons/                  ← cognitive-themed icons     ├── styles/     │   └── cognition_mode.qss     ← minimalist style     ├── README.md     └── .venv312/                  ← (or shared venv path)`
 
 ---
 
@@ -183,7 +183,7 @@ Create this in your CTS dev structure (suggested location):
 
 Since we're using PySide6 and Python 3.12.8:
 
-`# (From CTS/WEN_CommandDeck/) py -3.12 -m venv .venv312 .\.venv312\Scripts\activate  pip install pyside6`
+`# (From CTS/OTK_CommandDeck/) py -3.12 -m venv .venv312 .\.venv312\Scripts\activate  pip install pyside6`
 
 _You can also use Poetry or VS Code interpreter selector if preferred._
 
